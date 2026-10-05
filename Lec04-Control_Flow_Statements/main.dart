@@ -1,3 +1,5 @@
+import "dart:io"; // Library
+
 void main() {
   var name = "Hassan";
   // if (nameOne == "Hassan" && nameTwo == "Hassan" && nameThree == "Alishba") {
@@ -12,9 +14,9 @@ void main() {
   //   print("False");
   // }
 
-  var subOne = 55;
-  var subTwo = 94;
-  var subThree = 79;
+  var subOne = 25;
+  var subTwo = 24;
+  var subThree = 29;
 
   var obtMarks = subOne + subTwo + subThree;
   var totalMarks = 300;
@@ -44,6 +46,7 @@ void main() {
     print("FAIL");
   }
 
+  // AND
   // LADDER IF ELSE
   var grade; // Initialization
   if (per >= 80) {
@@ -61,4 +64,22 @@ void main() {
   }
 
   print("Grade: ${grade}");
+
+  var myName = "Hassan"; // Declaration
+
+  for (var i = 1; i <= 5; i++) {
+    stdout.write(i);
+    for (var j = 1; j <= 3; j++) {
+      stdout.write(j);
+    }
+
+    print("");
+  }
+
+  add(a, b) {
+    return a + b;
+  }
+
+  var res = add(5, 3);
+  print(res);
 }
