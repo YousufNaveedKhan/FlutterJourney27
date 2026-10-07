@@ -76,10 +76,17 @@ void main() {
     print("");
   }
 
+  var a = 1;
+  while (a <= 10) {
+    print(a);
+    a++;
+  }
+  
+
   add(a, b) {
     return a + b;
   }
 
   var res = add(5, 3);
-  print(res);
+  print("Add: ${res}");
 }
